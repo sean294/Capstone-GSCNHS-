@@ -1,0 +1,54 @@
+.modal-update-profile{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 0;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-update-profile .update-content-profile{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.modal-update-profile .update-content-profile .close-profile{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.modal-update-profile .update-content-profile .close-profile img{
+    width: 100%;
+}
+.modal-update-profile .update-content-profile form h2{
+    text-align: center;
+}
+.modal-update-profile .update-content-profile form .input{
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal-update-profile .update-content-profile form .frame{
+    width: 90px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.modal-update-profile .update-content-profile form input{
+    width: 50%;
+}
+.modal-update-profile .update-content-profile form select{
+    width: 53%;
+}
+.modal-update-profile .update-content-profile form .btn{
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 0;
+}

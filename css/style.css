@@ -1,0 +1,16 @@
+@import "main.css";
+@import "table.css";
+@import "modal-add.css";
+@import "qr-modal.css";
+@import "modal-update.css";
+@import "modal-delete.css";
+@import "modal-profile.css";
+@import "add_grades.css";
+@import "select2.min.css";
+/* @import "hide.css"; */
+
+img{
+    cursor: pointer;
+}
+/* for grades */
+

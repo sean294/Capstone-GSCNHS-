@@ -1,0 +1,161 @@
+html{
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+.nav-container{
+    height: 100%;
+    background-color: gray;
+    width: 15%;
+    position: relative;
+}
+.logo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+}
+.navbar{
+    display: block;
+}
+.navbar nav ul{
+    display: block;
+}
+.navbar nav ul li{
+    display: block;
+    padding-left: 20px;
+}
+.navbar nav ul li a{
+    display: block;
+    padding-bottom: 15px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar li a:hover{
+    color: rgb(79, 255, 243);
+}
+
+/* User Content */
+.user{
+    width: 100%;
+    margin: 60px auto 0 auto;
+    position: absolute;
+    top: 60%;
+}
+.profile_image{
+    text-align: center;
+}
+.user img{
+    width: 40%;
+    border-radius: 50%;
+}
+.user #user_name{
+    text-align: center;
+    padding: 5px;
+}
+.user #user_name a{
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.user .setting{
+    width: 100%;
+    margin-top: -16px;
+}
+.user .setting p{
+    padding-left: 40px;
+    padding-bottom: 3px;  
+    margin: 0;
+    font-size: 16px;
+}
+.user .setting p{
+    position: relative;
+}
+.user .setting p a{
+    color: black;
+    text-decoration: none;
+}
+.user .setting p a:hover{
+    color: red;
+}
+.user .setting p i{
+    position: absolute;
+    left: 20px;
+    top: 3px;
+}
+.user #user_name:hover, .user .setting p:hover{
+    background-color: rgba(229, 243, 255, 0.281);
+    color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+.setting {
+    display: none;
+    transition: transform 1s ease;
+}
+
+.setting.active {
+    display: block;
+    background-color: rgba(229, 243, 255, 0.281);
+}
+
+.main-content{
+    width: 85%;
+    background-color: rgb(179, 179, 179);
+    height: 100%;
+    color: #000000;
+}
+.main-content h1{
+    margin: 10px;
+}
+.dashboard{
+    display: flex;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.column{
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    margin: 40px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.column img{
+    position: absolute;
+    width: 40%;
+    top: 10%;
+}
+.column span{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

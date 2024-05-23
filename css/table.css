@@ -1,0 +1,54 @@
+.table-container{
+    width: 95%;
+    margin: 0 auto;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.table-wrapper{
+    height: 430px;
+    overflow: auto;
+}
+.table-container .header{
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table-container .header .search-bar{
+    width: 50%;
+    margin-left: 10px;
+}
+.table-container .header .add{
+    position: absolute;
+    right: 10px;
+}
+.table-container .header .qr{
+    position: absolute;
+    right: 50%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Make the header sticky */
+th {
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+    background-color: #f2f2f2;
+}
+td img:hover{
+    border: 1px solid rgb(0, 242, 255);
+    border-radius: 50px;
+}

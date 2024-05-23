@@ -1,0 +1,54 @@
+.modal-update{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 0;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-update .update-content{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.modal-update .update-content .close{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.modal-update .update-content .close img{
+    width: 100%;
+}
+.modal-update .update-content form h2{
+    text-align: center;
+}
+.modal-update .update-content form .input{
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal-update .update-content form .frame{
+    width: 90px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.modal-update .update-content form input{
+    width: 50%;
+}
+.modal-update .update-content form select{
+    width: 53%;
+}
+.modal-update .update-content form .btn{
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 0;
+}

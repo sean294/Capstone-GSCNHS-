@@ -1,0 +1,51 @@
+.modal-delete{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 0;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-delete .delete-content{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.modal-delete .delete-content .close{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.modal-delete .delete-content .close img{
+    width: 100%;
+}
+.modal-delete .delete-content form .input{
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal-delete .delete-content form .frame{
+    width: 90px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.modal-delete .delete-content form input{
+    width: 50%;
+}
+.modal-delete .delete-content form select{
+    width: 53%;
+}
+.modal-delete .delete-content form .btn{
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 0;
+}

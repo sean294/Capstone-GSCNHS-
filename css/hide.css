@@ -1,0 +1,9 @@
+.readonly-link {
+    pointer-events: none !important;
+    color: #ded2d2a2 !important;
+    /* Optional: Change color to indicate readonly state */
+    text-decoration: none !important;
+    /* Optional: Remove underline */
+    cursor: default !important;
+    /* Optional: Set cursor to default */
+}
